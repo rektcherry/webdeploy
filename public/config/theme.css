@@ -1,0 +1,40 @@
+:root {
+  --primary: #000000;
+  --primary-text: #ffffff;
+  --secondary: #000000;
+  --secondary-text: #ffffff;
+  --accent: #000000;
+  --accent-text: #ffffff;
+  --mint: #000000;
+  --button: #000000;
+  --button2: #ff00bb;
+}
+/* Twitter */
+.fa-instagram {
+  background: #000000;
+  color: white;
+  padding: 27px;
+}
+.fa-instagram:hover{
+background-color: rgb(180, 0, 251);
+opacity: 0.8;
+}
+.fa-github{
+  background: #000000;
+  color: white;
+  padding: 27px;
+}
+.fa-github:hover{
+background-color: rgb(180, 0, 251);
+opacity: 0.8;
+}
+.fa-linkedin{
+  background: #000000;
+  color: white;
+  padding: 27px;
+}
+.fa-linkedin:hover{
+background-color: rgb(180, 0, 251);
+opacity: 0.8;
+}
+

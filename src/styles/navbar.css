@@ -1,0 +1,44 @@
+
+.NavBar{
+    height: 70px;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+  padding: 0.5rem 0rem;
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  position: relative;
+}
+
+.menu{
+    padding: 0px;
+    margin-left: auto;
+
+}
+
+.menu ul{
+    display:flex;
+    padding:0;
+    
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 0 1rem;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding:1.7rem;
+    display:block;
+}
+
+.menu li:hover{
+    background-color: rgb(180, 0, 251);
+    opacity: 0.8;
+}
