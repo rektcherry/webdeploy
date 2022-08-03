@@ -16,8 +16,7 @@
   padding: 27px;
 }
 .fa-instagram:hover{
-background-color: rgb(180, 0, 251);
-opacity: 0.8;
+opacity: 0.4;
 }
 .fa-github{
   background: #000000;
@@ -25,8 +24,7 @@ opacity: 0.8;
   padding: 27px;
 }
 .fa-github:hover{
-background-color: rgb(180, 0, 251);
-opacity: 0.8;
+opacity: 0.4;
 }
 .fa-linkedin{
   background: #000000;
@@ -34,7 +32,6 @@ opacity: 0.8;
   padding: 27px;
 }
 .fa-linkedin:hover{
-background-color: rgb(180, 0, 251);
-opacity: 0.8;
+opacity: 0.4;
 }
 

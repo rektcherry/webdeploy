@@ -45,8 +45,7 @@ export const Arrow = styled.button`
   fontSize: '20px';
   bottom: '40px';
   right: '40px';
-  backgroundColor: '#000000';
-  color: '#fff';
+  color: 'black';
   textAlign: 'center';
   transition-duration: 0.4s;
   :hover{
@@ -103,7 +102,6 @@ export const StyledImg = styled.img`
   border: 0px solid var(--secondary);
   background-color: var(--accent);
   max-width: 100%;
-
   width: 500px;
   @media (min-width: 900px) {
     width: 500px;

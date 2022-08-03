@@ -7,9 +7,13 @@ export const Screen = styled.div`
   background-size: cover;
   background-position: center;
   width: 100%;
+  min-width:100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 `;
 
 // Used for providing space between components
@@ -50,25 +54,80 @@ export const Container = styled.div`
 `;
 
 export const  TextTitle = styled.p`
-  color: var(--primary-text);
-  font-size: 22px;
-  font-weight: 500;
+width: 100%;
+font-size: 35px;
+@media (max-width: 320px) {
+  font-size: 30px;
+}
+font-weight: 500;
+line-height: 1.6;
+background: -webkit-linear-gradient(deeppink, darkorchid, white );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  text-align: center;
+  padding:7;
+  margin-top: 10px;
+`;
+
+export const TextSubTitle = styled.p`
+width: 100%;
+font-size: 30px;
+@media (max-width: 320px) {
+  font-size: 25px;
+}
+  color: "var(--accent-text)";
+  text-align: center;
+  padding: 0;
   line-height: 1.6;
   background: -webkit-linear-gradient(deeppink, darkorchid, white );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-`;
 
-export const TextSubTitle = styled.p`
-  color: var(--primary-text);
-  font-size: 18px;
-  line-height: 1.6;
+
 `;
 
 export const TextDescription = styled.p`
-  color: var(--primary-text);
-  font-size: 16px;
+width: 100%;
+font-size: 16px;
+@media (max-width: 320px) {
+  font-size: 15px;
+}
+  text-align: justify;
+  color:"var(--accent-text)";
   line-height: 1.6;
+
+`;
+
+export const TextLink = styled.p`
+width: 100%;
+padding: 20px;
+font-size: 16px;
+@media (max-width: 60px) {
+  font-size: 14px;
+}
+@media (max-width: 320px) {
+  font-size: 12px;
+}
+  text-align: justify;
+  color:"var(--accent-text)";
+  line-height: 1.6;
+
+`;
+
+export const eth = styled.p`
+width: 100%;
+padding: 20px;
+font-size: 16px;
+@media (max-width: 600px) {
+  font-size: 12px;
+}
+@media (max-width: 320px) {
+  font-size: 8px;
+}
+  text-align: justify;
+  color:"var(--accent-text)";
+  line-height: 1.6;
+
 `;
 
 export const StyledClickable = styled.div`

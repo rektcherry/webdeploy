@@ -13,7 +13,7 @@ return (
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 0, width: "100%", backgroundColor: "var(--primary)" }}
+        style={{ padding: 0, backgroundColor: "var(--primary)" , overflowX:"hidden" }}
         image={ "config/images/frontpage2.jpg"}
         >
       <s.Container>
@@ -45,21 +45,19 @@ return (
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           position: "relative",
-          width: "60%"}}
-      ><s.TextTitle
+          width: "80%"}}
+      ><s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
         padding: 0,
         marginTop:"10px",
       }} 
       >WHAT IS THIS?
-      </s.TextTitle>
+      </s.TextSubTitle>
       <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -71,7 +69,6 @@ return (
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -94,21 +91,19 @@ return (
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           position: "relative",
-          width: "60%"}}
-      ><s.TextTitle
+          width: "80%"}}
+      ><s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
         padding: 0,
         marginTop:"10px",
       }} 
       >BUSINESS
-      </s.TextTitle>
+      </s.TextSubTitle>
       <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -121,7 +116,6 @@ return (
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -129,21 +123,17 @@ return (
             that it is not my thing at least on the short time frame. Financial market analysist would be better 
             fit for me than actual trading.
             </s.TextDescription>
-            <s.SpacerMedium/>
-        <s.TextTitle
+        <s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
-        padding: 0,
-        marginTop:"10px",
-      }} 
+        padding: 20,
+      }}    
       >PROGRAMMING
-      </s.TextTitle>
+      </s.TextSubTitle>
       <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -155,7 +145,6 @@ return (
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -178,22 +167,21 @@ return (
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           border: "2px solid var(--mint)",
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
-          width: "60%",
+          width: "80%",
           opacity: 0.85,
         }}
       >
-          <s.TextTitle
+          <s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
+        marginTop: 10,
       }} 
       > NFT STARTUP
-      </s.TextTitle>
+      </s.TextSubTitle>
       <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -204,18 +192,16 @@ return (
             I have also worked with digital art creation and overall brand building. 
             </s.TextDescription>
             <s.SpacerMedium/>
-            <s.TextTitle
+            <s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
       }} 
       > DATA ANALYTICS 
-      </s.TextTitle>
+      </s.TextSubTitle>
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -225,18 +211,16 @@ return (
             the code. I took part in the planning.
             </s.TextDescription>    
             <s.SpacerMedium/>
-            <s.TextTitle
+            <s.TextSubTitle
       style={{
-        textAlign: "justify",
-        fontSize: 40,
+        textAlign: "center",
         color: "var(--accent-text)",
       }} 
       > ATHLETE
-      </s.TextTitle>
+      </s.TextSubTitle>
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
@@ -246,32 +230,45 @@ return (
             <s.TextDescription
               style={{
                 textAlign: "justify",
-                fontSize: 20,
                 color: "var(--accent-text)",
                 padding: 20
               }}
             >This job containts brand building, social meadia content creation
             and negotiations with companies. Also, it has increased my networking skills with other athletes, coaches and potential sponsors.  
             </s.TextDescription>
-            <Arrow
-        onClick={() => {
-          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-        }}
-        style={{
-          position: 'fixed',
-          padding: '1rem 2rem',
-          fontSize: '20px',
-          bottom: '40px',
-          right: '40px',
-          backgroundColor: 'black',
-          color: 'white',
-          textAlign: 'center',
-          cursor: 'pointer',}}
-        >^</Arrow>
             <s.SpacerLarge/>
               </s.Container>
               <s.SpacerLarge/>
                 <s.SpacerLarge/>
+                <s.Container
+                flex={1}
+                ai={"center"}
+                jc={"center"}
+                style={{
+                width: "100%",
+                backgroundColor: "black",
+                opacity:0.7, 
+                alignItems: "center", 
+                justifyContent:"center",
+              }}>
+                <ResponsiveWrapper flex={1}
+                style={{
+                padding: 0,
+                alignItems: "center", 
+                justifyContent:"center",
+                flexDirection: "row"}} >
+        
+                <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+            <a href="https://www.instagram.com/mertsix" target="_blank"><i class="fab fa-instagram"></i>
+            </a>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+            <a href="https://github.com/rektcherry/" target="_blank"><i class="fab fa-github"></i>
+            </a>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+            <a href="https://www.linkedin.com/in/merituuli-j%C3%A4%C3%A4skel%C3%A4inen-782206225/" target="_blank"><i class="fab fa-linkedin"></i>
+            </a>
+            </ResponsiveWrapper>
+            </s.Container>
               </s.Container>
             </s.Screen>
   );
