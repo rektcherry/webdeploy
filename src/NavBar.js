@@ -14,7 +14,7 @@ export const NavBar = () => {
                         <a href = "/">MAIN HALL</a>
                         </li>
                     <li>
-                        <a href = "/Experience">SECOND FLOOR</a>
+                        <a href = "/experience">SECOND FLOOR</a>
                     </li>
         
             </ul>
