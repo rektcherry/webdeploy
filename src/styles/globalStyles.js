@@ -122,7 +122,7 @@ font-size: 16px;
   font-size: 12px;
 }
 @media (max-width: 320px) {
-  font-size: 8px;
+  font-size: 7px;
 }
   text-align: justify;
   color:"var(--accent-text)";
