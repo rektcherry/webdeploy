@@ -1,5 +1,4 @@
 import React, { useEffect, useState} from "react";
-import {BrowserRouter as Router, Link} from 'react-router-dom';
 import * as s from "./styles/globalStyles";
 import {ResponsiveWrapper, truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
 import { NavBar } from "./navbar";
