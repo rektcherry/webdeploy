@@ -14,10 +14,10 @@ return (
       <s.Container
         ai={"center"}
         style={{ padding: 0, width:"100%",backgroundColor: "var(--primary)" , margin: "0px",overflowX: "hidden"}}
-        image={ "./config/images/frontpage2.jpg"}
+        image={ "https://rektcherry.github.io/webdeploy/config/images/frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"./config/images/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
+      <StyledImg alt={"example"} src={"https://rektcherry.github.io/webdeploy/config/images/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
      <s.Container
     flex={1}
     ai={"center"}
@@ -38,21 +38,21 @@ return (
           <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/glitch.jpg"}
+              src={"https://rektcherry.github.io/webdeploy/config/images/glitch.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"}style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/lanes.jpg"}
+              src={"https://rektcherry.github.io/webdeploy/config/images/lanes.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/venytys.jpg"}
+              src={"https://rektcherry.github.io/webdeploy/config/images/venytys.jpg"}
               style={{ padding: 5 }}
             /> 
             </s.Container>
@@ -118,7 +118,7 @@ return (
             0x8ecCACb36aA933ca459b48c1039d6de532851a97
             </s.eth>
             <s.SpacerSmall/>
-            <StyledImg alt={"example"} src={"./config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
+            <StyledImg alt={"example"} src={"https://rektcherry.github.io/webdeploy/config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
             <s.SpacerLarge/>
       </s.Container>
   <s.SpacerLarge/>
