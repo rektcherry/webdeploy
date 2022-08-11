@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./app";
+import App from "./App";
 import "./styles/reset.css";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Experience from "./experience";
+import Experience from "./Experience";
 
 ReactDOM.render(
     <Router>
