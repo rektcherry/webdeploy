@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import * as s from "./styles/globalStyles";
 import {ResponsiveWrapper ,truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./navbar";
 
 function App() {  
   useEffect(() => {
@@ -13,11 +13,11 @@ return (
   <s.ScrollBar>
       <s.Container
         ai={"center"}
-        style={{ padding: 0, width:"100%", margin: "0px",overflowX: "hidden"}}
-        image={ "./config/images/frontpage2.JPG"}
+        style={{ padding: 0, width:"100%",backgroundColor: "var(--primary)" , margin: "0px",overflowX: "hidden"}}
+        image={ "%PUBLIC_URL%/config/images/frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"./config/images/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
+      <StyledImg alt={"example"} src={"%PUBLIC_URL%/config/images/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
      <s.Container
     flex={1}
     ai={"center"}
@@ -38,21 +38,21 @@ return (
           <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/glitch.jpg"}
+              src={"%PUBLIC_URL%/config/images/glitch.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"}style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/lanes.jpg"}
+              src={"%PUBLIC_URL%/config/images/lanes.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"./config/images/venytys.jpg"}
+              src={"%PUBLIC_URL%/config/images/venytys.jpg"}
               style={{ padding: 5 }}
             /> 
             </s.Container>
@@ -118,7 +118,7 @@ return (
             0x8ecCACb36aA933ca459b48c1039d6de532851a97
             </s.eth>
             <s.SpacerSmall/>
-            <StyledImg alt={"example"} src={"./config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
+            <StyledImg alt={"example"} src={"%PUBLIC_URL%//config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
             <s.SpacerLarge/>
       </s.Container>
   <s.SpacerLarge/>

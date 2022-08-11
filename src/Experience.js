@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import * as s from "./styles/globalStyles";
 import {ResponsiveWrapper, truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./navbar";
 
 function Experience() {  
     useEffect(() => {
@@ -15,10 +15,10 @@ return (
         flex={1}
         ai={"center"}
         style={{ padding: 0, backgroundColor: "var(--primary)" , overflowX:"hidden" }}
-        image={ "./config/images/frontpage2.jpg"}
+        image={ "%PUBLIC_URL%/config/images/frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"./config/images/neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
+      <StyledImg alt={"example"} src={"%PUBLIC_URL%/config/images/neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
     
      <s.Container
     flex={1}
