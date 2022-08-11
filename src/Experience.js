@@ -15,10 +15,10 @@ return (
         flex={1}
         ai={"center"}
         style={{ padding: 0, backgroundColor: "var(--primary)" , overflowX:"hidden" }}
-        image={ "%PUBLIC_URL%/config/images/frontpage2.jpg"}
+        image={ "https://github.com/rektcherry/webdeploy/blob/main/public/config/images/frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"%PUBLIC_URL%/config/images/neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
+      <StyledImg alt={"example"} src={"https://github.com/rektcherry/webdeploy/blob/main/public/config/images/neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
     
      <s.Container
     flex={1}
