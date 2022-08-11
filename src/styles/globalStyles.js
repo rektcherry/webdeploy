@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-// Used for wrapping a page component
 export const Screen = styled.div`
   background-color: var(--primary);
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
@@ -8,12 +7,18 @@ export const Screen = styled.div`
   background-position: center;
   width: 100%;
   min-width:100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
+`;
+
+export const ScrollBar = styled.div`
+  overflow-y: auto;
+  height: 100%;
+  position: absolute;
 `;
 
 // Used for providing space between components
@@ -50,7 +55,7 @@ export const Container = styled.div`
   background-color: ${({ test }) => (test ? "pink" : "none")};
   background-image: ${({ image }) => (image ? `url(${image})` : "none")};
   background-size: cover;
-  background-position: center;
+  position: relative;
 `;
 
 export const  TextTitle = styled.p`

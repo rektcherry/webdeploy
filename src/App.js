@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from "react";
 import {BrowserRouter as Router, Link} from 'react-router-dom';
 import * as s from "./styles/globalStyles";
-import {ResponsiveWrapper, truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
+import {ResponsiveWrapper ,truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
 import { NavBar } from "./NavBar";
 
 function App() {  
@@ -10,9 +10,10 @@ function App() {
   }, []);
 return (
 <s.Screen>
+  <s.ScrollBar>
       <s.Container
         ai={"center"}
-        style={{ padding: 0, width:"100%", height: "100%", margin: "0px",overflowX: "hidden"}}
+        style={{ padding: 0, width:"100%", margin: "0px",overflowX: "hidden"}}
         image={ "config/images/frontpage2.jpg"}
         >
       <s.Container>
@@ -23,7 +24,8 @@ return (
     jc={"center"}
     style={{
     width: "100%",
-    backgroundColor: "black",
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+    padding: 0,
   }}>
   <NavBar style={{width: "100%",height: "100%", margin:"0px", padding: 0}}/>
   </s.Container>
@@ -285,6 +287,7 @@ return (
             </ResponsiveWrapper>
             </s.Container>
               </s.Container>
+              </s.ScrollBar>
             </s.Screen>
   );
 }

@@ -10,6 +10,7 @@ function Experience() {
       }, []);
 return (
 <s.Screen>
+<s.ScrollBar>
       <s.Container
         flex={1}
         ai={"center"}
@@ -25,7 +26,7 @@ return (
     jc={"center"}
     style={{
     width: "100%",
-    backgroundColor: "black",
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
   }}>
   <NavBar style={{width: "100%"}}/>
   </s.Container>
@@ -270,6 +271,7 @@ return (
             </ResponsiveWrapper>
             </s.Container>
               </s.Container>
+              </s.ScrollBar>
             </s.Screen>
   );
 }
