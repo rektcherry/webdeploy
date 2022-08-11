@@ -9,7 +9,7 @@ ReactDOM.render(
     <Router basename="/webdeploy">
       <Routes>
     <Route path='/' element={<App/>} />
-    <Route path='/experience' element={<Experience/>} />
+    <Route path='webdeploy/experience' element={<Experience/>} />
     </Routes>
     </Router>,
   document.getElementById("root")
