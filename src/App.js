@@ -14,7 +14,7 @@ return (
       <s.Container
         ai={"center"}
         style={{ padding: 0, width:"100%",backgroundColor: "var(--primary)" , margin: "0px",overflowX: "hidden"}}
-        image={ "public/config/images/frontpage2.jpg"}
+        image={ "../public/config/images/frontpage2.jpg"}
         >
       <s.Container>
       <StyledImg alt={"example"} src={"./config/images/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
