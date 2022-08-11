@@ -1,6 +1,6 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect} from "react";
 import * as s from "./styles/globalStyles";
-import {ResponsiveWrapper, truncate, StyledButton, StyledButton2, Arrow, StyledImg, StyledLogo, StyledRoundButton, StyledLink} from "./components";
+import {ResponsiveWrapper, StyledImg} from "./components";
 import { NavBar } from "./navbar";
 
 function Experience() {  

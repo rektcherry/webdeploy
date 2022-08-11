@@ -8,7 +8,7 @@ import Experience from "./Experience";
 ReactDOM.render(
     <Router basename={"/webdeploy"}>
       <Routes>
-    <Route path='/webdeploy' element={<App/>} />
+    <Route path='/' element={<App/>} />
     <Route path='/webdeploy/experience' element={<Experience/>} />
     </Routes>
     </Router>,
