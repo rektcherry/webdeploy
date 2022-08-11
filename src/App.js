@@ -118,7 +118,7 @@ return (
             0x8ecCACb36aA933ca459b48c1039d6de532851a97
             </s.eth>
             <s.SpacerSmall/>
-            <StyledImg alt={"example"} src={"%PUBLIC_URL%//config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
+            <StyledImg alt={"example"} src={"%PUBLIC_URL%/config/images/eth.gif"} style = {{width: "80px",  alignSelf: 'center' }} />
             <s.SpacerLarge/>
       </s.Container>
   <s.SpacerLarge/>
