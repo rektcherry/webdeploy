@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Experience from "./Experience";
 
 ReactDOM.render(
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={"/webdeploy"}>
       <Routes>
     <Route path='/webdeploy' element={<App/>} />
     <Route path='/webdeploy/experience' element={<Experience/>} />
