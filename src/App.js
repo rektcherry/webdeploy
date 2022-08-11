@@ -14,10 +14,10 @@ return (
       <s.Container
         ai={"center"}
         style={{ padding: 0, width:"100%", margin: "0px",overflowX: "hidden"}}
-        image={ "public/frontpage2.jpg"}
+        image={ "./frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"public/neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
+      <StyledImg alt={"example"} src={"./neon.png"} style = {{width:"100%", padding: "0px", position:"center"}} />
      <s.Container
     flex={1}
     ai={"center"}
@@ -38,21 +38,21 @@ return (
           <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"public/glitch.jpg"}
+              src={"./glitch.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"}style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"public/lanes.jpg"}
+              src={"./lanes.jpg"}
               style={{ padding: 5 }}
             />
             </s.Container>
             <s.Container flex={1} jc={"center"} ai={"center"} style={{ padding:30}}>
             <StyledImg
               alt={"example"}
-              src={"public/venytys.jpg"}
+              src={"./venytys.jpg"}
               style={{ padding: 5 }}
             /> 
             </s.Container>

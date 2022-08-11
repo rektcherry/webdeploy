@@ -15,10 +15,10 @@ return (
         flex={1}
         ai={"center"}
         style={{ padding: 0, backgroundColor: "var(--primary)" , overflowX:"hidden" }}
-        image={ "public/frontpage2.jpg"}
+        image={ "./frontpage2.jpg"}
         >
       <s.Container>
-      <StyledImg alt={"example"} src={"public/neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
+      <StyledImg alt={"example"} src={"./neon.png"} style = {{width:"100%",height:"20%", position:"relative"}} />
     
      <s.Container
     flex={1}
