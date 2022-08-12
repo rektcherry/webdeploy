@@ -8,10 +8,10 @@ export const NavBar = () => {
             <div className="menu">
                 <ul>
                     <li>
-                        <a href = "/webdeploy">MAIN HALL</a>
+                        <a href = "#/">MAIN HALL</a>
                         </li>
                     <li>
-                        <a href = "/experience">SECOND FLOOR </a>
+                        <a href = "#/experience">SECOND FLOOR </a>
                     </li>
         
             </ul>
