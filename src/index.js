@@ -6,7 +6,7 @@ import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import Experience from "./Experience";
 
 ReactDOM.render(
-    <Router basename="/webdeploy">
+    <Router basename="/webdeploy" hashType={"slash"}>
       <Routes>
     <Route path='/' element={<App/>} />
     <Route path='/experience' element={<Experience/>} />
