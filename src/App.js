@@ -246,7 +246,7 @@ return (
             >Seepia Games Data Analytics Trainee 4/2022 - 5/2022
             </s.TextDescription>
             <s.SpacerLarge/>
-            <Link to="/webdeploy/experience">
+            <Link to="/experience">
             <StyledButton2
             onClick={() => {
             window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
