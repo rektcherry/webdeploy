@@ -45,7 +45,8 @@ return (
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           position: "relative",
-          width: "80%"}}
+          width: "80%",
+        padding:50}}
       ><s.TextSubTitle
       style={{
         textAlign: "center",
@@ -86,7 +87,7 @@ return (
         style={{
           backgroundColor: "var(--secondary)",
           opacity: 0.85,
-          padding: 7,
+          padding:50,
           border: "2px solid var(--mint)",
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
@@ -163,7 +164,7 @@ return (
         jc={"center"}
         style={{
           backgroundColor: "var(--primary)",
-          padding: 7,
+          padding: 50,
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           border: "2px solid var(--mint)",
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
@@ -258,14 +259,14 @@ return (
                 justifyContent:"center",
                 flexDirection: "row"}} >
         
-                <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://www.instagram.com/mertsix" target="_blank"><i class="fab fa-instagram"></i>
+                <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://www.instagram.com/mertsix" target="_blank"><i className="fab fa-instagram"></i>
             </a>
-            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://github.com/rektcherry/" target="_blank"><i class="fab fa-github"></i>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://github.com/rektcherry/" target="_blank"><i className="fab fa-github"></i>
             </a>
-            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://www.linkedin.com/in/merituuli-j%C3%A4%C3%A4skel%C3%A4inen-782206225/" target="_blank"><i class="fab fa-linkedin"></i>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://www.linkedin.com/in/merituuli-j%C3%A4%C3%A4skel%C3%A4inen-782206225/" target="_blank"><i className="fab fa-linkedin"></i>
             </a>
             </ResponsiveWrapper>
             </s.Container>

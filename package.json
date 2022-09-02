@@ -1,6 +1,7 @@
 {
   "homepage": "https://rektcherry.github.io/webdeploy",
   "name": "mertsix",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "Mertsifolio",
   "private": false,

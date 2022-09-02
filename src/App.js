@@ -79,6 +79,8 @@ return (
         color: "var(--accent-text)",
         padding: 7,
         marginTop:"10px",
+        marginBottom:"20px",
+        animation: "flicker 3s linear infinite"
       }} 
       >MERITUULI JÄÄSKELÄINEN
       </s.TextTitle>
@@ -197,7 +199,7 @@ return (
         jc={"center"}
         style={{
           backgroundColor: "var(--primary)",
-          padding: 0,
+          padding: 10,
           boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
           border: "2px solid var(--mint)",
           borderImage: "linear-gradient(to right, darkblue, darkorchid) 1",
@@ -209,8 +211,8 @@ return (
       style={{
         textAlign: "center",
         color: "var(--accent-text)",
-        padding: 7,
         marginTop:"10px",
+        padding: 5,
       }} 
       > Work Experience
       </s.TextTitle>
@@ -219,7 +221,6 @@ return (
               style={{
                 textAlign: "center",
                 color: "var(--accent-text)",
-                padding: 10,
                 marginLeft: 20,
                 marginRight: 20,  
               }}
@@ -229,9 +230,9 @@ return (
               style={{
                 textAlign: "center",
                 color: "var(--accent-text)",
-                padding: 10,
                 marginLeft: 20,
                 marginRight: 20,  
+                padding: 5,
               }}
             >Athlete 6/2017 - Current 
             </s.TextDescription>
@@ -239,7 +240,7 @@ return (
               style={{
                 textAlign: "center",
                 color: "var(--accent-text)",
-                padding: 10,
+                padding: 5,
                 marginLeft: 20,
                 marginRight: 20,  
               }}
@@ -275,14 +276,14 @@ return (
                 justifyContent:"center",
                 flexDirection: "row"}} >
         
-                <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://www.instagram.com/mertsix" target="_blank"><i class="fab fa-instagram"></i>
+                <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://www.instagram.com/mertsix" target="_blank"><i className="fab fa-instagram"></i>
             </a>
-            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://github.com/rektcherry/" target="_blank"><i class="fab fa-github"></i>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://github.com/rektcherry/" target="_blank"><i className="fab fa-github"></i>
             </a>
-            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <a href="https://www.linkedin.com/in/merituuli-j%C3%A4%C3%A4skel%C3%A4inen-782206225/" target="_blank"><i class="fab fa-linkedin"></i>
+            <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />  
+            <a href="https://www.linkedin.com/in/merituuli-j%C3%A4%C3%A4skel%C3%A4inen-782206225/" target="_blank"><i className="fab fa-linkedin"></i>
             </a>
             </ResponsiveWrapper>
             </s.Container>

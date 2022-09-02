@@ -59,6 +59,7 @@ export const Container = styled.div`
 `;
 
 export const  TextTitle = styled.p`
+text-transform: uppercase;
 width: 100%;
 font-size: 35px;
 @media (max-width: 320px) {
@@ -66,15 +67,34 @@ font-size: 35px;
 }
 font-weight: 500;
 line-height: 1.6;
-background: -webkit-linear-gradient(deeppink, darkorchid, white );
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+color:white;
+background: rgba(0,0,0,0);
   text-align: center;
   padding:7;
   margin-top: 10px;
+text-shadow:
+  0 0 7px #ffc0eb,
+  0 0 10px #ffc0eb,
+  0 0 21px #ffc0eb,
+  0 0 42px #ff77f8,
+  0 0 82px #ff77f8,
+  0 0 92px #ff77f8,
+  0 0 102px #ff77f8,
+  0 0 151px #ff77f8 ;
+  @keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+      //text-shadow: none;
+      opacity: .99;
+      
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      opacity: 0.4;
+    }
+  }
 `;
 
 export const TextSubTitle = styled.p`
+text-transform: uppercase;
 width: 100%;
 font-size: 30px;
 @media (max-width: 320px) {
@@ -92,6 +112,7 @@ font-size: 30px;
 `;
 
 export const TextDescription = styled.p`
+text-transform: uppercase;
 width: 100%;
 font-size: 16px;
 @media (max-width: 320px) {
@@ -104,10 +125,12 @@ font-size: 16px;
 `;
 
 export const TextLink = styled.p`
+text-transform: uppercase;
+overflow-wrap: break-word; 
 width: 100%;
 padding: 20px;
 font-size: 16px;
-@media (max-width: 60px) {
+@media (max-width: 600px) {
   font-size: 14px;
 }
 @media (max-width: 320px) {
@@ -120,6 +143,8 @@ font-size: 16px;
 `;
 
 export const eth = styled.p`
+
+overflow-wrap: break-word; 
 width: 100%;
 padding: 20px;
 font-size: 16px;

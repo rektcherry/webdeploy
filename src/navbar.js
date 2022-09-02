@@ -4,7 +4,7 @@ import "./styles/navbar.css";
 export const NavBar = () => {
     return(
         <div style={{width: "100%", alignItems: "center", justifyContent:"center",display:"flex"}}>
-            <nav class= "NavBar">
+            <nav className= "NavBar">
             <div className="menu">
                 <ul>
                     <li>

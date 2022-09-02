@@ -25,18 +25,27 @@ export const StyledButton = styled.button`
 `;
 
 export const StyledButton2 = styled.button`
-  padding: 15px;
-  border:  20 px;
-  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-  background-color: var(--button);
-  font-weight: bold;
-  width: 100%;
-  width: 170px;
-  cursor: pointer;
-  position: relative;
-  color: white;
-  :hover{
-    opacity: 0.5;
+padding: 25px;
+position: relative;
+border-radius: 8px;
+border: none;
+background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+transition: 0.5s;
+background-size: 200% auto;      
+box-shadow: 0 0 20px #0ff;
+border-radius: 10px;
+font:inherit;
+font-weight: bold;
+color: var(--secondary-text);
+width: 100%;
+margin-bottom:20px;
+z-index:1;
+cursor: pointer;
+:hover{
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 `;
 
 export const Arrow = styled.button`
